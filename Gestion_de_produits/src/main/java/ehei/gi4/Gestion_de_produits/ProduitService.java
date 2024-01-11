@@ -6,23 +6,12 @@ public class ProduitService {
 
     private Map<Long, Produit> produits = new HashMap<>();
 
-	private Map<Long, Produit> produits = new HashMap<>();
 	 public void ajouterProduit(Produit produit) throws Exception {
 	        produits.put(produit.getId(), produit);
 	    }
 	 public Produit obtenirProduit(Long id) {
 	        return produits.get(id);
 	    }
-
-
-    public void ajouterProduit(Produit produit) throws Exception {
-        verifierUniciteEtValidite(produit);
-        produits.put(produit.getId(), produit);
-    }
-
-    public Produit obtenirProduit(Long id) {
-        return produits.get(id);
-    }
 
     public void mettreAJourProduit(Produit produit) throws Exception {
         if (!produits.containsKey(produit.getId())) {
