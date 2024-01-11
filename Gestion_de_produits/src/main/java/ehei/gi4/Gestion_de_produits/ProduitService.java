@@ -6,5 +6,8 @@ public class ProduitService {
 	        verifierUniciteEtValidite(produit);
 	        produits.put(produit.getId(), produit);
 	    }
+	 public Produit obtenirProduit(Long id) {
+	        return produits.get(id);
+	    }
 
 }
