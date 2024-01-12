@@ -2,6 +2,7 @@ package ehei.gi4.Gestion_de_produits;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.NoSuchElementException;
 
 public class ProduitService {
     Map<Long,Produit> produits = new HashMap<Long,Produit>();
@@ -19,6 +20,13 @@ public class ProduitService {
         }
     }
     public void ajouterProduit(Produit produit) throws Exception {
+        verifierUniciteEtValidite(produit);
+        produits.put(produit.getId(), produit);
+    }
+    public void mettreAJourProduit(Produit produit) throws Exception {
+        if (!produits.containsKey(produit.getId())) {
+            throw new NoSuchElementException("Produit non trouvé pour l'ID : " + produit.getId());
+        }
         verifierUniciteEtValidite(produit);
         produits.put(produit.getId(), produit);
     }
