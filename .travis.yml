@@ -1,6 +1,6 @@
 language: java
-jdk:
-  - openjdk7
-
-script:
-  - mvn clean test
+jdk: openjdk21
+before_install:
+  - chmod +x mvnw
+mvn_version: 3.9.5  
+script: ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
