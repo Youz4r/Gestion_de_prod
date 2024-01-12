@@ -1,6 +1,6 @@
 language: java
-jdk: openjdk21
+jdk: openjdk11 # Replace with your required JDK version
 before_install:
   - chmod +x mvnw
-mvn_version: 3.9.5  
+  # Add commands here to install a specific Maven version if necessary
 script: ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
