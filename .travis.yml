@@ -1,5 +1,9 @@
 language: java
 jdk: openjdk11 # Replace with your required JDK version
+cache:
+  directories:
+    - $HOME/.m2
+
 before_install:
   - chmod +x mvnw
   # Add commands here to install a specific Maven version if necessary
