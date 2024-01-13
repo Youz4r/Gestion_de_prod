@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae69cd6-548f-42d6-9b72-f4c4be87458d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ehei/gi4/Gestion_de_produits/ProduitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehei/gi4/Gestion_de_produits/ProduitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ehei/gi4/Gestion_de_produits/ProduitServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ehei/gi4/Gestion_de_produits/ProduitServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ehei.gi4/Gestion_de_produits/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ehei.gi4/Gestion_de_produits/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ehei/gi4/Gestion_de_produits/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ehei/gi4/Gestion_de_produits/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ehei/gi4/Gestion_de_produits/Produit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ehei/gi4/Gestion_de_produits/Produit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ehei/gi4/Gestion_de_produits/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ehei/gi4/Gestion_de_produits/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +65,29 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ehei.gi4.Gestion_de_produits" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProduitServiceTest.testSupprimerProduit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gestion_de_produits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ehei.gi4.Gestion_de_produits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ehei.gi4.Gestion_de_produits" />
+      <option name="MAIN_CLASS_NAME" value="ehei.gi4.Gestion_de_produits.ProduitServiceTest" />
+      <option name="METHOD_NAME" value="testSupprimerProduit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProduitServiceTest.testSupprimerProduit" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
