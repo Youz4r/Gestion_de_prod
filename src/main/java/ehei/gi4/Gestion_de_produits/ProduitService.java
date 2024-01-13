@@ -30,6 +30,9 @@ public class ProduitService {
         verifierUniciteEtValidite(produit);
         produits.put(produit.getId(), produit);
     }
+    public void supprimerProduit(Long id) {
+        produits.remove(id);
+    }
     private void verifierUniciteEtValidite(Produit produit) throws Exception {
         for (Produit p : produits.values()) {
             if (p.getId().equals(produit.getId()) || p.getNom().equals(produit.getNom())) {
