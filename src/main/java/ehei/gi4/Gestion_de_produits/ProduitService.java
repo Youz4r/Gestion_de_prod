@@ -7,12 +7,11 @@ import java.util.NoSuchElementException;
 public class ProduitService {
     Map<Long,Produit> produits = new HashMap<Long,Produit>();
 
-    // afficher un seul produit
     private void afficherProduit(Produit produit) {
         System.out.println(produit);
     }
 
-    // afficher tous les produits
+
     public void afficherTousProduits() {
         System.out.println("tous les produits :");
         for (Produit produit : produits.values()) {
@@ -42,5 +41,9 @@ public class ProduitService {
         if (produit.getPrix() < 0 || produit.getQuantite() < 0) {
             throw new IllegalArgumentException("Le prix et la quantité doivent être positifs.");
         }
+    }
+
+    public Produit getProduit(long l ) {
+        return this.produits.get(l);
     }
 }
